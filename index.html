@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Reaction Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+  <div class="card">
+      <h2>💬 New Message</h2>
+      <p class="message">
+          How are you feeling today?
+      </p>
+      <button id="reactBtn">
+          React with Emoji 😊
+      </button>
+      <div class="picker" id="picker">
+          <span data-name="Happy">😊</span>
+          <span data-name="Love">❤️</span>
+          <span data-name="Laugh">😂</span>
+          <span data-name="Wow">😮</span>
+          <span data-name="Cool">😎</span>
+          <span data-name="Fire">🔥</span>
+          <span data-name="Party">🎉</span>
+          <span data-name="Sad">😢</span>
+          <span data-name="Angry">😡</span>
+          <span data-name="Like">👍</span>
+      </div>
+      <div class="selected">
+          <h3>Your Reaction</h3>
+          <div id="reaction"></div>
+          <p id="label"></p>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
